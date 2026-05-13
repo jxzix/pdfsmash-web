@@ -116,7 +116,7 @@ export default function Compressor() {
             ) : (
               <>
                 <p className="text-white font-semibold text-lg">Drop your PDF here</p>
-                <p className="text-white/40 text-sm mt-1">or click to select · Max 50 MB</p>
+                <p className="text-white/40 text-sm mt-1">or click to select · Max 200 MB</p>
               </>
             )}
           </div>
