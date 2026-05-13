@@ -19,6 +19,7 @@ export function incrementUses(): number {
 
 export function isPremium(): boolean {
   if (typeof window === 'undefined') return false
+  if (window.location.hostname === 'localhost') return true
   return localStorage.getItem(PREMIUM_KEY) === 'true'
 }
 
