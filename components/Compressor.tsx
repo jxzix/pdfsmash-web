@@ -101,7 +101,7 @@ export default function Compressor() {
     <div className="w-full max-w-xl mx-auto">
 
       {/* Upload zone — visible en idle y done */}
-      {(state === 'idle' || state === 'done') && (
+      {state === 'idle' && (
         <>
           {/* Drop zone */}
           <div
