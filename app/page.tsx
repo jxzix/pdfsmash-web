@@ -45,7 +45,7 @@ export default function Home() {
         <div className="max-w-3xl mx-auto grid grid-cols-3 gap-8 text-center">
           {[
             { num: '90%', label: 'Average reduction' },
-            { num: '50MB', label: 'Max file size' },
+            { num: '200MB', label: 'Max file size' },
             { num: '100%', label: 'Private & secure' },
           ].map(({ num, label }) => (
             <div key={label}>
@@ -61,7 +61,7 @@ export default function Home() {
         <h2 className="text-white font-bold text-3xl text-center mb-12">How it works</h2>
         <div className="grid sm:grid-cols-3 gap-6">
           {[
-            { step: '01', title: 'Upload', desc: 'Drag & drop your PDF or click to select. Up to 50 MB.' },
+            { step: '01', title: 'Upload', desc: 'Drag & drop your PDF or click to select. Up to 200 MB.' },
             { step: '02', title: 'Compress', desc: 'We use Ghostscript to shrink images, fonts, and metadata.' },
             { step: '03', title: 'Download', desc: 'Get your smaller PDF instantly. No email, no account.' },
           ].map(({ step, title, desc }) => (
