@@ -277,7 +277,7 @@ export default function Compressor() {
             {[
               'Unlimited compressions',
               'All quality levels',
-              'Files up to 50 MB',
+              'Files up to 200 MB',
               'No watermarks, ever',
             ].map((perk) => (
               <div key={perk} className="flex items-center gap-3">
